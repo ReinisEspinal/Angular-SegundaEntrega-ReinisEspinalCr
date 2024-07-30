@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pf-baez-57210": {
+    "SegundaEntrega": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/pf-baez-57210",
+            "outputPath": "dist/SegundaEntrega",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "pf-baez-57210:build:production"
+              "buildTarget": "SegundaEntrega:build:production"
             },
             "development": {
-              "buildTarget": "pf-baez-57210:build:development"
+              "buildTarget": "SegundaEntrega:build:development"
             }
           },
           "defaultConfiguration": "development"
